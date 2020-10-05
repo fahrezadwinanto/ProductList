@@ -23,7 +23,7 @@ class Header extends Component {
         return (
             <View style={ style.container }>
                 <Text style={ style .text }>
-                    Header
+                  { this.props.title }
                 </Text>
             </View>
         );
